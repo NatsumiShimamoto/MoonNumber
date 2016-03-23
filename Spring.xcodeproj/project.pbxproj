@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD9580BD1CA227ED0051E81E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9580BC1CA227ED0051E81E /* AppDelegate.swift */; };
+		DD9580BF1CA227ED0051E81E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9580BE1CA227ED0051E81E /* ViewController.swift */; };
+		DD9580C21CA227ED0051E81E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9580C01CA227ED0051E81E /* Main.storyboard */; };
+		DD9580C41CA227ED0051E81E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9580C31CA227ED0051E81E /* Assets.xcassets */; };
+		DD9580C71CA227ED0051E81E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9580C51CA227ED0051E81E /* LaunchScreen.storyboard */; };
+		DD9580D21CA227ED0051E81E /* SpringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9580D11CA227ED0051E81E /* SpringTests.swift */; };
+		DD9580DD1CA227ED0051E81E /* SpringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9580DC1CA227ED0051E81E /* SpringUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD9580CE1CA227ED0051E81E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9580B11CA227ED0051E81E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9580B81CA227ED0051E81E;
+			remoteInfo = Spring;
+		};
+		DD9580D91CA227ED0051E81E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9580B11CA227ED0051E81E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9580B81CA227ED0051E81E;
+			remoteInfo = Spring;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD9580B91CA227ED0051E81E /* Spring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9580BC1CA227ED0051E81E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD9580BE1CA227ED0051E81E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD9580C11CA227ED0051E81E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD9580C31CA227ED0051E81E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD9580C61CA227ED0051E81E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD9580C81CA227ED0051E81E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9580CD1CA227ED0051E81E /* SpringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9580D11CA227ED0051E81E /* SpringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringTests.swift; sourceTree = "<group>"; };
+		DD9580D31CA227ED0051E81E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9580D81CA227ED0051E81E /* SpringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9580DC1CA227ED0051E81E /* SpringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringUITests.swift; sourceTree = "<group>"; };
+		DD9580DE1CA227ED0051E81E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD9580B61CA227ED0051E81E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9580CA1CA227ED0051E81E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9580D51CA227ED0051E81E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD9580B01CA227ED0051E81E = {
+			isa = PBXGroup;
+			children = (
+				DD9580BB1CA227ED0051E81E /* Spring */,
+				DD9580D01CA227ED0051E81E /* SpringTests */,
+				DD9580DB1CA227ED0051E81E /* SpringUITests */,
+				DD9580BA1CA227ED0051E81E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD9580BA1CA227ED0051E81E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD9580B91CA227ED0051E81E /* Spring.app */,
+				DD9580CD1CA227ED0051E81E /* SpringTests.xctest */,
+				DD9580D81CA227ED0051E81E /* SpringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD9580BB1CA227ED0051E81E /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				DD9580BC1CA227ED0051E81E /* AppDelegate.swift */,
+				DD9580BE1CA227ED0051E81E /* ViewController.swift */,
+				DD9580C01CA227ED0051E81E /* Main.storyboard */,
+				DD9580C31CA227ED0051E81E /* Assets.xcassets */,
+				DD9580C51CA227ED0051E81E /* LaunchScreen.storyboard */,
+				DD9580C81CA227ED0051E81E /* Info.plist */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		DD9580D01CA227ED0051E81E /* SpringTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD9580D11CA227ED0051E81E /* SpringTests.swift */,
+				DD9580D31CA227ED0051E81E /* Info.plist */,
+			);
+			path = SpringTests;
+			sourceTree = "<group>";
+		};
+		DD9580DB1CA227ED0051E81E /* SpringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD9580DC1CA227ED0051E81E /* SpringUITests.swift */,
+				DD9580DE1CA227ED0051E81E /* Info.plist */,
+			);
+			path = SpringUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD9580B81CA227ED0051E81E /* Spring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9580E11CA227ED0051E81E /* Build configuration list for PBXNativeTarget "Spring" */;
+			buildPhases = (
+				DD9580B51CA227ED0051E81E /* Sources */,
+				DD9580B61CA227ED0051E81E /* Frameworks */,
+				DD9580B71CA227ED0051E81E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spring;
+			productName = Spring;
+			productReference = DD9580B91CA227ED0051E81E /* Spring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD9580CC1CA227ED0051E81E /* SpringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9580E41CA227ED0051E81E /* Build configuration list for PBXNativeTarget "SpringTests" */;
+			buildPhases = (
+				DD9580C91CA227ED0051E81E /* Sources */,
+				DD9580CA1CA227ED0051E81E /* Frameworks */,
+				DD9580CB1CA227ED0051E81E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9580CF1CA227ED0051E81E /* PBXTargetDependency */,
+			);
+			name = SpringTests;
+			productName = SpringTests;
+			productReference = DD9580CD1CA227ED0051E81E /* SpringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD9580D71CA227ED0051E81E /* SpringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9580E71CA227ED0051E81E /* Build configuration list for PBXNativeTarget "SpringUITests" */;
+			buildPhases = (
+				DD9580D41CA227ED0051E81E /* Sources */,
+				DD9580D51CA227ED0051E81E /* Frameworks */,
+				DD9580D61CA227ED0051E81E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9580DA1CA227ED0051E81E /* PBXTargetDependency */,
+			);
+			name = SpringUITests;
+			productName = SpringUITests;
+			productReference = DD9580D81CA227ED0051E81E /* SpringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD9580B11CA227ED0051E81E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "嶋本夏海";
+				TargetAttributes = {
+					DD9580B81CA227ED0051E81E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					DD9580CC1CA227ED0051E81E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DD9580B81CA227ED0051E81E;
+					};
+					DD9580D71CA227ED0051E81E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DD9580B81CA227ED0051E81E;
+					};
+				};
+			};
+			buildConfigurationList = DD9580B41CA227ED0051E81E /* Build configuration list for PBXProject "Spring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD9580B01CA227ED0051E81E;
+			productRefGroup = DD9580BA1CA227ED0051E81E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD9580B81CA227ED0051E81E /* Spring */,
+				DD9580CC1CA227ED0051E81E /* SpringTests */,
+				DD9580D71CA227ED0051E81E /* SpringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD9580B71CA227ED0051E81E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9580C71CA227ED0051E81E /* LaunchScreen.storyboard in Resources */,
+				DD9580C41CA227ED0051E81E /* Assets.xcassets in Resources */,
+				DD9580C21CA227ED0051E81E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9580CB1CA227ED0051E81E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9580D61CA227ED0051E81E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD9580B51CA227ED0051E81E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9580BF1CA227ED0051E81E /* ViewController.swift in Sources */,
+				DD9580BD1CA227ED0051E81E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9580C91CA227ED0051E81E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9580D21CA227ED0051E81E /* SpringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9580D41CA227ED0051E81E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9580DD1CA227ED0051E81E /* SpringUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD9580CF1CA227ED0051E81E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9580B81CA227ED0051E81E /* Spring */;
+			targetProxy = DD9580CE1CA227ED0051E81E /* PBXContainerItemProxy */;
+		};
+		DD9580DA1CA227ED0051E81E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9580B81CA227ED0051E81E /* Spring */;
+			targetProxy = DD9580D91CA227ED0051E81E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD9580C01CA227ED0051E81E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9580C11CA227ED0051E81E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD9580C51CA227ED0051E81E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9580C61CA227ED0051E81E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD9580DF1CA227ED0051E81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD9580E01CA227ED0051E81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD9580E21CA227ED0051E81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.Spring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD9580E31CA227ED0051E81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.Spring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD9580E51CA227ED0051E81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.SpringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spring.app/Spring";
+			};
+			name = Debug;
+		};
+		DD9580E61CA227ED0051E81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.SpringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spring.app/Spring";
+			};
+			name = Release;
+		};
+		DD9580E81CA227ED0051E81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.SpringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Spring;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DD9580E91CA227ED0051E81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.SpringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Spring;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD9580B41CA227ED0051E81E /* Build configuration list for PBXProject "Spring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9580DF1CA227ED0051E81E /* Debug */,
+				DD9580E01CA227ED0051E81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9580E11CA227ED0051E81E /* Build configuration list for PBXNativeTarget "Spring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9580E21CA227ED0051E81E /* Debug */,
+				DD9580E31CA227ED0051E81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD9580E41CA227ED0051E81E /* Build configuration list for PBXNativeTarget "SpringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9580E51CA227ED0051E81E /* Debug */,
+				DD9580E61CA227ED0051E81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD9580E71CA227ED0051E81E /* Build configuration list for PBXNativeTarget "SpringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9580E81CA227ED0051E81E /* Debug */,
+				DD9580E91CA227ED0051E81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD9580B11CA227ED0051E81E /* Project object */;
+}
