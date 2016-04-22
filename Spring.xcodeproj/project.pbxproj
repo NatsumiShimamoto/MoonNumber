@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD84B8491CA3905E0061E873 /* wrong_back.png in Resources */ = {isa = PBXBuildFile; fileRef = DD84B8481CA3905E0061E873 /* wrong_back.png */; };
 		DD9580BD1CA227ED0051E81E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9580BC1CA227ED0051E81E /* AppDelegate.swift */; };
 		DD9580BF1CA227ED0051E81E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9580BE1CA227ED0051E81E /* ViewController.swift */; };
 		DD9580C21CA227ED0051E81E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9580C01CA227ED0051E81E /* Main.storyboard */; };
@@ -14,6 +15,17 @@
 		DD9580C71CA227ED0051E81E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9580C51CA227ED0051E81E /* LaunchScreen.storyboard */; };
 		DD9580D21CA227ED0051E81E /* SpringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9580D11CA227ED0051E81E /* SpringTests.swift */; };
 		DD9580DD1CA227ED0051E81E /* SpringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9580DC1CA227ED0051E81E /* SpringUITests.swift */; };
+		DD9580EE1CA22C540051E81E /* countDown1.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9580EA1CA22C540051E81E /* countDown1.png */; };
+		DD9580EF1CA22C540051E81E /* countDown2.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9580EB1CA22C540051E81E /* countDown2.png */; };
+		DD9580F01CA22C540051E81E /* countDown3.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9580EC1CA22C540051E81E /* countDown3.png */; };
+		DD9580F31CA23E090051E81E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9580F21CA23E090051E81E /* ResultViewController.swift */; };
+		DD9580F51CA24B7C0051E81E /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9580F41CA24B7C0051E81E /* StartViewController.swift */; };
+		DD9580FA1CA26EFB0051E81E /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9580F91CA26EFB0051E81E /* backButton.png */; };
+		DD9580FC1CA270B00051E81E /* OCRAStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = DD9580FB1CA270B00051E81E /* OCRAStd.otf */; };
+		DD9580FF1CA27F060051E81E /* startBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9580FD1CA27F060051E81E /* startBtn.png */; };
+		DD9581001CA27F060051E81E /* startImg.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9580FE1CA27F060051E81E /* startImg.png */; };
+		DD9581041CA2E51C0051E81E /* gameImg.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9581031CA2E51C0051E81E /* gameImg.png */; };
+		DDE4197F1CA3752C000C150B /* resultImg.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE4197E1CA3752C000C150B /* resultImg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD84B8481CA3905E0061E873 /* wrong_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrong_back.png; sourceTree = "<group>"; };
 		DD9580B91CA227ED0051E81E /* Spring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD9580BC1CA227ED0051E81E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD9580BE1CA227ED0051E81E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,17 @@
 		DD9580D81CA227ED0051E81E /* SpringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD9580DC1CA227ED0051E81E /* SpringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringUITests.swift; sourceTree = "<group>"; };
 		DD9580DE1CA227ED0051E81E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9580EA1CA22C540051E81E /* countDown1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = countDown1.png; sourceTree = "<group>"; };
+		DD9580EB1CA22C540051E81E /* countDown2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = countDown2.png; sourceTree = "<group>"; };
+		DD9580EC1CA22C540051E81E /* countDown3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = countDown3.png; sourceTree = "<group>"; };
+		DD9580F21CA23E090051E81E /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		DD9580F41CA24B7C0051E81E /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		DD9580F91CA26EFB0051E81E /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		DD9580FB1CA270B00051E81E /* OCRAStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OCRAStd.otf; sourceTree = "<group>"; };
+		DD9580FD1CA27F060051E81E /* startBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startBtn.png; sourceTree = "<group>"; };
+		DD9580FE1CA27F060051E81E /* startImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startImg.png; sourceTree = "<group>"; };
+		DD9581031CA2E51C0051E81E /* gameImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameImg.png; sourceTree = "<group>"; };
+		DDE4197E1CA3752C000C150B /* resultImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resultImg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +121,16 @@
 		DD9580BB1CA227ED0051E81E /* Spring */ = {
 			isa = PBXGroup;
 			children = (
+				DD9580FB1CA270B00051E81E /* OCRAStd.otf */,
 				DD9580BC1CA227ED0051E81E /* AppDelegate.swift */,
+				DD9580F41CA24B7C0051E81E /* StartViewController.swift */,
 				DD9580BE1CA227ED0051E81E /* ViewController.swift */,
+				DD9580F21CA23E090051E81E /* ResultViewController.swift */,
 				DD9580C01CA227ED0051E81E /* Main.storyboard */,
 				DD9580C31CA227ED0051E81E /* Assets.xcassets */,
 				DD9580C51CA227ED0051E81E /* LaunchScreen.storyboard */,
 				DD9580C81CA227ED0051E81E /* Info.plist */,
+				DD9580F61CA24FC70051E81E /* Image */,
 			);
 			path = Spring;
 			sourceTree = "<group>";
@@ -123,6 +151,22 @@
 				DD9580DE1CA227ED0051E81E /* Info.plist */,
 			);
 			path = SpringUITests;
+			sourceTree = "<group>";
+		};
+		DD9580F61CA24FC70051E81E /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				DD9580EA1CA22C540051E81E /* countDown1.png */,
+				DD9580EB1CA22C540051E81E /* countDown2.png */,
+				DD9580EC1CA22C540051E81E /* countDown3.png */,
+				DD9581031CA2E51C0051E81E /* gameImg.png */,
+				DDE4197E1CA3752C000C150B /* resultImg.png */,
+				DD9580F91CA26EFB0051E81E /* backButton.png */,
+				DD9580FD1CA27F060051E81E /* startBtn.png */,
+				DD9580FE1CA27F060051E81E /* startImg.png */,
+				DD84B8481CA3905E0061E873 /* wrong_back.png */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +274,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD9580C71CA227ED0051E81E /* LaunchScreen.storyboard in Resources */,
+				DD9580F01CA22C540051E81E /* countDown3.png in Resources */,
 				DD9580C41CA227ED0051E81E /* Assets.xcassets in Resources */,
 				DD9580C21CA227ED0051E81E /* Main.storyboard in Resources */,
+				DDE4197F1CA3752C000C150B /* resultImg.png in Resources */,
+				DD9580FA1CA26EFB0051E81E /* backButton.png in Resources */,
+				DD9581041CA2E51C0051E81E /* gameImg.png in Resources */,
+				DD9581001CA27F060051E81E /* startImg.png in Resources */,
+				DD9580EE1CA22C540051E81E /* countDown1.png in Resources */,
+				DD9580FF1CA27F060051E81E /* startBtn.png in Resources */,
+				DD9580EF1CA22C540051E81E /* countDown2.png in Resources */,
+				DD9580FC1CA270B00051E81E /* OCRAStd.otf in Resources */,
+				DD84B8491CA3905E0061E873 /* wrong_back.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +311,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD9580BF1CA227ED0051E81E /* ViewController.swift in Sources */,
+				DD9580F51CA24B7C0051E81E /* StartViewController.swift in Sources */,
 				DD9580BD1CA227ED0051E81E /* AppDelegate.swift in Sources */,
+				DD9580F31CA23E090051E81E /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +455,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Spring/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = a.Spring;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanda.springCamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -410,7 +466,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Spring/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = a.Spring;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanda.springCamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -482,6 +538,7 @@
 				DD9580E31CA227ED0051E81E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD9580E41CA227ED0051E81E /* Build configuration list for PBXNativeTarget "SpringTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +547,7 @@
 				DD9580E61CA227ED0051E81E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD9580E71CA227ED0051E81E /* Build configuration list for PBXNativeTarget "SpringUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +556,7 @@
 				DD9580E91CA227ED0051E81E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
