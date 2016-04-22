@@ -31,6 +31,7 @@ class ResultViewController: UIViewController {
         let startViewController: StartViewController = self.storyboard?.instantiateViewControllerWithIdentifier("startVC") as! StartViewController
         self.presentViewController(startViewController, animated: true, completion: nil)
     }
+    
     /*
     // MARK: - Navigation
 

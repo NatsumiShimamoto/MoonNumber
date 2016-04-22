@@ -18,8 +18,6 @@ class ViewController: UIViewController {
     var multipleNum1 : Int!
     var multipleNum2 : Int!
     
-    var judgeLabel : UILabel! = UILabel()
-    
     @IBOutlet var scoreLabel : UILabel! = UILabel()
     var scoreNumNow : Int! = 0
     
@@ -36,6 +34,8 @@ class ViewController: UIViewController {
     
     var countImgView : UIImageView!
     
+    let wrongImgView : UIImageView! = UIImageView()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,14 +43,14 @@ class ViewController: UIViewController {
         countImgView = UIImageView(frame: CGRectMake(0, 0, screenSize.width, screenSize.height))
         self.view.addSubview(countImgView)
         
-        introTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("introCountDown"), userInfo: nil, repeats: true)
+        introTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector:#selector(ViewController.introCountDown), userInfo: nil, repeats: true)
         introTimer.fire()
         
         
     }
     
     func createView() {
-        gameTimer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: Selector("gameCountDown"), userInfo: nil, repeats: true)
+        gameTimer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: #selector(ViewController.gameCountDown), userInfo: nil, repeats: true)
         gameTimer.fire()
         
         
@@ -62,25 +62,25 @@ class ViewController: UIViewController {
         numLabel.userInteractionEnabled = true
         
         // single swipe up
-        let swipeUpGesture: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: "handleSwipeUp:")
+        let swipeUpGesture: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.handleSwipeUp(_:)))
         swipeUpGesture.numberOfTouchesRequired = 1  // number of fingers
         swipeUpGesture.direction = UISwipeGestureRecognizerDirection.Up
         numLabel.addGestureRecognizer(swipeUpGesture)
         
         // single swipe left
-        let swipeLeftGesture: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: "handleSwipeLeft:")
+        let swipeLeftGesture: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.handleSwipeLeft(_:)))
         swipeLeftGesture.numberOfTouchesRequired = 1  // number of fingers
         swipeLeftGesture.direction = UISwipeGestureRecognizerDirection.Left
         numLabel.addGestureRecognizer(swipeLeftGesture)
         
         // single swipe down
-        let swipeDownGesture: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: "handleSwipeDown:")
+        let swipeDownGesture: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.handleSwipeDown(_:)))
         swipeDownGesture.numberOfTouchesRequired = 1
         swipeDownGesture.direction = UISwipeGestureRecognizerDirection.Down
         numLabel.addGestureRecognizer(swipeDownGesture)
         
         // single swipe right
-        let swipeRightGesture: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: "handleSwipeRight:")
+        let swipeRightGesture: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.handleSwipeRight(_:)))
         swipeRightGesture.numberOfTouchesRequired = 1  // number of fingers
         swipeRightGesture.direction = UISwipeGestureRecognizerDirection.Right
         numLabel.addGestureRecognizer(swipeRightGesture)
@@ -97,15 +97,12 @@ class ViewController: UIViewController {
         multipleNum2 = multipleArr[multipleArrNum]
         
         multipleLabel2.text = String(multipleNum2)
-              
-        judgeLabel.frame = CGRectMake(180, 167, 45, 45)
-        self.view.addSubview(judgeLabel)
-        
+    
         scoreLabel.text = String(appDelegate.scoreNum)
         
     }
-
-
+    
+    
     
     func introCountDown() {
         
@@ -123,14 +120,14 @@ class ViewController: UIViewController {
             
             createView()
         }
-        introCount--
+        introCount -= 1
     }
     
     
     func gameCountDown() {
         timeLabel.text = String(format:"%.1f",timerCount)
         
-        if(timerCount<=0.0){
+        if(timerCount <= 0.0){
             gameTimer.invalidate()
             
             let resultViewController: ResultViewController = self.storyboard?.instantiateViewControllerWithIdentifier("resultVC") as! ResultViewController
@@ -171,24 +168,41 @@ class ViewController: UIViewController {
     }
     
     func correct() {
-        judgeLabel.text = "◯"
         scoreNumNow = appDelegate.scoreNum + 10
         scoreLabel.text = String(scoreNumNow)
         appDelegate.scoreNum = scoreNumNow
         
     }
+    
     func wrong() {
-        judgeLabel.text = "×"
         scoreNumNow = appDelegate.scoreNum - 5
         scoreLabel.text = String(scoreNumNow)
         appDelegate.scoreNum = scoreNumNow
+        
+        wrongImgView.frame = CGRectMake(0, 0, screenSize.width, screenSize.height)
+        wrongImgView.backgroundColor = UIColor.whiteColor()
+        wrongImgView.alpha = 1.0
+        view.addSubview(wrongImgView)
+        
+        UIView.animateWithDuration(0.2, delay: 0.0,
+                                   options: [UIViewAnimationOptions.Autoreverse],
+                                   
+                                   animations: {
+                                    
+                                    self.wrongImgView.alpha = 0.0
+            },
+                                   completion:{(Bool) -> Void in
+                                    self.wrongImgView.layer.removeAllAnimations()
+            }
+        )
     }
+    
     
     func handleSwipeUp(sender: UITapGestureRecognizer){
         print("Swiped up!")
         
         UIView.animateWithDuration(0.3, animations: {() -> Void in
-            self.numLabel.center = CGPoint(x: 188,y: -40);
+            self.numLabel.center = CGPoint(x: 188,y: -40)
             }, completion: {(Bool) -> Void in
                 self.judgeUp()
                 self.reset()
